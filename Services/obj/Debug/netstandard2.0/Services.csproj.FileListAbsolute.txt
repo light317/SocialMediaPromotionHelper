@@ -1,0 +1,9 @@
+C:\Users\Mousa\source\repos\InstagramPromotionHelper\Services\bin\Debug\netstandard2.0\Services.deps.json
+C:\Users\Mousa\source\repos\InstagramPromotionHelper\Services\bin\Debug\netstandard2.0\Services.dll
+C:\Users\Mousa\source\repos\InstagramPromotionHelper\Services\bin\Debug\netstandard2.0\Services.pdb
+C:\Users\Mousa\source\repos\InstagramPromotionHelper\Services\obj\Debug\netstandard2.0\Services.csprojAssemblyReference.cache
+C:\Users\Mousa\source\repos\InstagramPromotionHelper\Services\obj\Debug\netstandard2.0\Services.AssemblyInfoInputs.cache
+C:\Users\Mousa\source\repos\InstagramPromotionHelper\Services\obj\Debug\netstandard2.0\Services.AssemblyInfo.cs
+C:\Users\Mousa\source\repos\InstagramPromotionHelper\Services\obj\Debug\netstandard2.0\Services.csproj.CoreCompileInputs.cache
+C:\Users\Mousa\source\repos\InstagramPromotionHelper\Services\obj\Debug\netstandard2.0\Services.dll
+C:\Users\Mousa\source\repos\InstagramPromotionHelper\Services\obj\Debug\netstandard2.0\Services.pdb

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InstagramPromotionHelper", "InstagramPromotionHelper.csproj", "{FE2041D9-7C2A-4667-B93D-9C6CE953DBDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{48131E29-D5F8-42E1-99EB-6CF1CC9A0EC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE2041D9-7C2A-4667-B93D-9C6CE953DBDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE2041D9-7C2A-4667-B93D-9C6CE953DBDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE2041D9-7C2A-4667-B93D-9C6CE953DBDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE2041D9-7C2A-4667-B93D-9C6CE953DBDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48131E29-D5F8-42E1-99EB-6CF1CC9A0EC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48131E29-D5F8-42E1-99EB-6CF1CC9A0EC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48131E29-D5F8-42E1-99EB-6CF1CC9A0EC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48131E29-D5F8-42E1-99EB-6CF1CC9A0EC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92E6943B-F20B-48C7-9CC4-8B214995830E}
+	EndGlobalSection
+EndGlobal

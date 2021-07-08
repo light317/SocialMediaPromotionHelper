@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form asp-controller="Home">
+    <div class="text-center">
+        <h1 class="display-4">Enter an intagram post Id</h1>
+        <input type="text" asp-route-for="searchText" />
+        <button type="submit" asp-action="FetchData">submit </button>
+    </div>
+</form>
