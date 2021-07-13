@@ -7,7 +7,8 @@ namespace Services.Models
 {
     public class InstagramPostCommentModel
     {
-        public string PosterId { get; set; }
+        public ulong CommentId { get; set; }
+        public ulong PosterId { get; set; }
         public string PosterUserName { get; set; }
         public string PostBodyText { get; set; }
         public ICollection<string> Tags => ExtractTagsFromText(PostBodyText);

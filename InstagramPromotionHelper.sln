@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InstagramPromotionHelper", "InstagramPromotionHelper.csproj", "{FE2041D9-7C2A-4667-B93D-9C6CE953DBDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{48131E29-D5F8-42E1-99EB-6CF1CC9A0EC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{48131E29-D5F8-42E1-99EB-6CF1CC9A0EC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "..\UnitTests\UnitTests.csproj", "{5AB01F9E-F73E-4882-BFF8-D39A2A282902}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{48131E29-D5F8-42E1-99EB-6CF1CC9A0EC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48131E29-D5F8-42E1-99EB-6CF1CC9A0EC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48131E29-D5F8-42E1-99EB-6CF1CC9A0EC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AB01F9E-F73E-4882-BFF8-D39A2A282902}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AB01F9E-F73E-4882-BFF8-D39A2A282902}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AB01F9E-F73E-4882-BFF8-D39A2A282902}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AB01F9E-F73E-4882-BFF8-D39A2A282902}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

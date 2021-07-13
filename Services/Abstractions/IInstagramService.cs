@@ -8,6 +8,9 @@ namespace Services.Abstractions
 {
     public interface IInstagramService
     {
-        Task<ICollection<InstagramPostCommentModel>> GetPostComments();
+        //Task<ICollection<InstagramPostCommentModel>> GetPostComments();
+        Task<ICollection<InstagramPostCommentModel>> GetPostComments(string postId);
+
+        Task<ICollection<InstagramCommenterModel>> GetUniqueCommenters(string postId);
     }
 }

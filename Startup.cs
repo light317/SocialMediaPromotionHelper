@@ -21,9 +21,10 @@ namespace InstagramPromotionHelper
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            //services.AddTransient<IDataParser, DataParser>();
             services.AddTransient<IInstagramService, InstagramService>();
             services.AddTransient<IDataProcessor, DataProcessor>();
+            services.AddTransient<ICompetitionService, CompetitionService>();
+            services.AddTransient<IRandomizerService, RandomizerService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

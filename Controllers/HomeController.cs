@@ -21,7 +21,7 @@ namespace InstagramPromotionHelper.Controllers
             _instagramService = instagramService;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
             //using (StreamReader file = System.IO.File.OpenText(@"C:\Users\Mousa\Desktop\promotion.json"))
             //using (JsonTextReader reader = new JsonTextReader(file))
@@ -31,7 +31,7 @@ namespace InstagramPromotionHelper.Controllers
             //}
             //dynamic o1 = JObject.Parse(System.IO.File.ReadAllText(@"C:\Users\Mousa\Desktop\promotion.json"));
 
-            var x = _instagramService.GetPostComments();
+            var x = await _instagramService.GetPostComments("CRJHwQgNFF-");
 
             return View();
         }
@@ -47,21 +47,21 @@ namespace InstagramPromotionHelper.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-        [HttpPost("fetchData")]
-        public async Task<IActionResult> FetchData(string searchText)
-        {
-            //string jsonString = (string)await LoadJsonFile(@"C:\Users\Mousa\Desktop\promotion.json");
+        //[HttpPost("fetchData")]
+        //public async Task<IActionResult> FetchData(string searchText)
+        //{
+        //    //string jsonString = (string)await LoadJsonFile(@"C:\Users\Mousa\Desktop\promotion.json");
 
-            JObject o1 = JObject.Parse(System.IO.File.ReadAllText(@"C:\Users\Mousa\Desktop\promotion.json"));
+        //    JObject o1 = JObject.Parse(System.IO.File.ReadAllText(@"C:\Users\Mousa\Desktop\promotion.json"));
 
-            using (StreamReader file = System.IO.File.OpenText(@"c:\videogames.json"))
-            using (JsonTextReader reader = new JsonTextReader(file))
-            {
-                JObject o2 = (JObject)JToken.ReadFrom(reader);
-                System.Console.WriteLine(o2);
-            }
+        //    using (StreamReader file = System.IO.File.OpenText(@"c:\videogames.json"))
+        //    using (JsonTextReader reader = new JsonTextReader(file))
+        //    {
+        //        JObject o2 = (JObject)JToken.ReadFrom(reader);
+        //        System.Console.WriteLine(o2);
+        //    }
 
-            return View("InstagramPostSearchPage");
-        }
+        //    return View("InstagramPostSearchPage");
+        //}
     }
 }

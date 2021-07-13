@@ -9,5 +9,7 @@ namespace Services.Abstractions
     public interface IDataProcessor
     {
         JObject GetJsonStringFromFileAsync(string filePath);
+
+        Task<JObject> GetJsonFromURLAsync(string url);
     }
 }
